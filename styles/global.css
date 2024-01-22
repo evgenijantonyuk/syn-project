@@ -1,0 +1,186 @@
+* {
+  margin: 0;
+  padding: 0;
+  /*border: 0.5px solid black;*/
+}
+
+body {
+  background: #F8FCFF;
+}
+
+.content > * {
+  display: flex;
+  justify-content: center;
+}
+
+.container {
+  max-width: 1440px;
+  width: 100%;
+  padding: 0 100px 0 100px;
+}
+
+.header {
+  margin-top: 30px;
+}
+
+header .container > div {
+  display: flex;
+  justify-content: space-between;
+}
+
+.header-text {
+  margin: 48px 0 40px;
+}
+
+.top-button {
+  position: relative;
+  display: flex;
+  align-items: center;
+  height: 50px;
+  padding-left: 60px;
+}
+
+.top-button:before {
+  position: absolute;
+  left: 0;
+  top: 0;
+  background: url(/images/icon-arrow.svg) transparent no-repeat center;
+  background-size: contain;
+  content: '';
+  width: 50px;
+  height: 100%;
+  display: block;
+  cursor: pointer;
+}
+
+.header-left {
+  flex: 3;
+  padding-top: 65px;
+}
+
+.header-right {
+  flex: 4;
+  background: url(/images/header_card.png) transparent no-repeat center;
+  background-size: contain;
+}
+
+.trigger-fire {
+  background: url(/images/fire.svg) transparent no-repeat center;
+  display: inline-block;
+  width: 35px;
+  height: 35px;
+}
+
+.trigger-fire-bold {
+  font-size: 30px;
+}
+
+.trigger-icon {
+  background: url(/images/icon.svg) transparent no-repeat center;
+  background-size: contain;
+  display: inline-block;
+  width: 35px;
+  height: 35px;
+  margin-bottom: 15px;
+}
+
+.triggers .bold,
+.triggers .medium {
+  display: inline-block;
+  margin-bottom: 30px;
+}
+
+/*Footer*/
+.footer {
+  display: flex;
+  align-items: center;
+  height: 190px;
+  justify-content: space-between;
+}
+
+.connection {
+  display: flex;
+  gap: 61px;
+}
+
+.social {
+  display: flex;
+  gap: 30px;
+}
+
+.registration {
+  display: flex;
+  gap: 47px;
+}
+
+.singing,
+.login {
+  color: #404041;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 20px; /* 142.857% */
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+  transition: color .5s ease-in-out;
+}
+.singing:hover {
+  color: #f02c38;
+}
+.login:hover {
+  color: #f02c38;
+}
+
+.facebook {
+  background-size: contain;
+  display: inline-block;
+  width: 15px;
+  height: 15px;
+  cursor: pointer;
+}
+
+.instagram {
+  background: url(/images/instagram_icon.svg) transparent no-repeat center;
+  background-size: contain;
+  display: inline-block;
+  width: 15px;
+  height: 15px;
+  cursor: pointer;
+}
+
+.youtube {
+  background: url(/images/youtube_icon.svg) transparent no-repeat center;
+  background-size: contain;
+  display: inline-block;
+  width: 15px;
+  height: 15px;
+  cursor: pointer;
+}
+
+.facebook:hover {
+  fill: #f02c38;
+}
+.instagram:hover {
+  fill: #f02c38;
+}
+.youtube:hover {
+  fill: #f02c38;
+}
+
+.copyright {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 30px;
+}
+
+.copyright-text:after {
+  content: "";
+  border-bottom: 1px solid black;
+  width: 55%;
+  position: absolute;
+  top: 8px;
+  left: 25%;
+  color: #565B58;
+}
+
