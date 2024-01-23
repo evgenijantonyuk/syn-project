@@ -20,6 +20,26 @@ h1 {
   font-weight: 500;
 }
 
+.singing,
+.login {
+  color: #404041;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 20px; /* 142.857% */
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+  transition: color .5s ease-in-out;
+}
+
+
+.singing:hover {
+  color: #f02c38;
+}
+.login:hover {
+  color: #f02c38;
+}
+
 .copyright-text {
   color: #7B827D;
   font-size: 12px;

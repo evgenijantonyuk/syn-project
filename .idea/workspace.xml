@@ -5,11 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="53fd851a-2189-4407-9a57-ed8c180975e6" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/styles/block.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/styles/global.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/styles/text.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scripts/main.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/styles/block.css" beforeDir="false" afterPath="$PROJECT_DIR$/styles/block.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/styles/global.css" beforeDir="false" afterPath="$PROJECT_DIR$/styles/global.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/styles/text.css" beforeDir="false" afterPath="$PROJECT_DIR$/styles/text.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,6 +46,7 @@
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
     &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
     &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.keymap&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
@@ -63,7 +65,8 @@
       <updated>1705767446733</updated>
       <workItem from="1705767448635" duration="2703000" />
       <workItem from="1705772518818" duration="13762000" />
-      <workItem from="1705844590492" duration="38272000" />
+      <workItem from="1705844590492" duration="49253000" />
+      <workItem from="1705996053850" duration="8818000" />
     </task>
     <task id="LOCAL-00001" summary="first commit">
       <created>1705773183641</created>
@@ -79,7 +82,21 @@
       <option name="project" value="LOCAL" />
       <updated>1705776214487</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="add header and footer">
+      <created>1705944442126</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1705944442126</updated>
+    </task>
+    <task id="LOCAL-00004" summary="delete error html">
+      <created>1705944657266</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1705944657266</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -88,6 +105,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="first commit" />
     <MESSAGE value="add readme" />
-    <option name="LAST_COMMIT_MESSAGE" value="add readme" />
+    <MESSAGE value="add header and footer" />
+    <MESSAGE value="delete error html" />
+    <option name="LAST_COMMIT_MESSAGE" value="delete error html" />
   </component>
 </project>
