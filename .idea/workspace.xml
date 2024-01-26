@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="53fd851a-2189-4407-9a57-ed8c180975e6" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/scripts/main.js" afterDir="false" />
+    <list default="true" id="53fd851a-2189-4407-9a57-ed8c180975e6" name="Changes" comment="add modal JS">
+      <change afterPath="$PROJECT_DIR$/Dockerfile" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/styles/block.css" beforeDir="false" afterPath="$PROJECT_DIR$/styles/block.css" afterDir="false" />
@@ -66,7 +66,10 @@
       <workItem from="1705767448635" duration="2703000" />
       <workItem from="1705772518818" duration="13762000" />
       <workItem from="1705844590492" duration="49253000" />
-      <workItem from="1705996053850" duration="8818000" />
+      <workItem from="1705996053850" duration="14576000" />
+      <workItem from="1706190889805" duration="8704000" />
+      <workItem from="1706208272049" duration="502000" />
+      <workItem from="1706243985900" duration="1917000" />
     </task>
     <task id="LOCAL-00001" summary="first commit">
       <created>1705773183641</created>
@@ -96,7 +99,14 @@
       <option name="project" value="LOCAL" />
       <updated>1705944657266</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="add modal JS">
+      <created>1706006903109</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1706006903109</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -107,6 +117,7 @@
     <MESSAGE value="add readme" />
     <MESSAGE value="add header and footer" />
     <MESSAGE value="delete error html" />
-    <option name="LAST_COMMIT_MESSAGE" value="delete error html" />
+    <MESSAGE value="add modal JS" />
+    <option name="LAST_COMMIT_MESSAGE" value="add modal JS" />
   </component>
 </project>

@@ -16,8 +16,15 @@ body {
 .container {
   max-width: 1440px;
   width: 100%;
-  padding: 0 100px 0 100px;
+  padding: 0 30px;
 }
+
+@media screen and (min-width: 1440px) {
+  .container {
+    padding: 0 100px;
+  }
+}
+
 
 .header {
   margin-top: 30px;
@@ -99,6 +106,14 @@ header .container > div {
   margin-bottom: 15px;
 }
 
+.triggers > div {
+  margin-right: 10px;
+}
+
+.triggers > div:last-child {
+  margin-right: 0;
+}
+
 .triggers .bold,
 .triggers .medium {
   display: inline-block;
@@ -164,13 +179,39 @@ header .container > div {
 .modal {
   border-radius: 20px;
   padding: 20px;
-  min-width: 500px;
-  min-height: 400px;
+  width: 300px;
   max-width: 500px;
   max-height: 400px;
-  width: 100%;
-  height: 100%;
   background: #fff;
   box-shadow: 0 0 50px -10px black;
 }
 
+.modal form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.modal h2 {
+  margin-bottom: 20px;
+}
+
+.modal input[type=text] {
+  border: none;
+  border-bottom: 1px solid black;
+  outline: none;
+  height: 50px;
+  margin-bottom: 15px;
+  width: 100%;
+}
+
+.modal input[type=submit] {
+  border: none;
+  outline: none;
+  box-shadow: inset 0 0 4px -2px black;
+  height: 50px;
+  margin-top: 15px;
+  border-radius: 8px;
+  padding: 16px;
+  background: #ffffff;
+}

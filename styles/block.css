@@ -3,6 +3,7 @@ nav {
   position: sticky;
   top: 0;
   left: 0;
+  height: 50px;
   background: #F8FCFF;
 
 }
@@ -32,8 +33,8 @@ nav > div {
 }
 
 .cart {
-  height: 50px;
-  width: 50px;
+  height: 40px;
+  width: 40px;
   background: url(/images/shopping-bag.png) transparent no-repeat center;
   background-size: contain;
   cursor: pointer;

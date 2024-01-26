@@ -5,9 +5,18 @@ body {
   font-weight: 400;
 }
 
+input {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+}
+
 h1 {
   font-family: 'Bai Jamjuree', sans-serif;
   font-size: 8vmin;
+}
+
+h2 {
+  font-family: 'Bai Jamjuree', sans-serif;
 }
 
 .bold {
